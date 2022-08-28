@@ -1,0 +1,19 @@
+{
+    "name": "hofthek/phone",
+    "description": "utilities for phone number based on google library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Hofthek\\Phone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathias Wadjo",
+            "email": "55707500+wombassorville@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "giggsey/libphonenumber-for-php": "^8.12"
+    }
+}
